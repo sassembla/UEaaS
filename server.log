@@ -1,0 +1,27 @@
+log:ERROR: RedisConnectionController: failed to connect to redis @:127.0.0.1:6379
+log:ERROR: reason:System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.IPAddress[] addresses, Int32 port) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Connect (System.String host, Int32 port) [0x00000] in <filename unknown>:0 
+  at RedisConnectionController.GenSocket (System.String host, Int32 port, Int32 timeout) [0x00017] in /Users/illusionismine/Desktop/unity-editor-server-context/Assets/ServerContext/Editor/RedisConnectionController.cs:168 
+log:RedisConnectionController: succeded to connect redis @:127.0.0.1:6379
+log:RedisConnectionController: succeded to connect redis @:127.0.0.1:6379
+log:RedisConnectionController: succeded to connect redis @:127.0.0.1:6379
+log:RedisConnectionController: succeded to connect redis @:127.0.0.1:6379
+log:connected, connectionId:A42695BB-957B-4CE0-BEF7-CB8A1E1DFD39
+log:playerId:100 is connected as connectionId:A42695BB-957B-4CE0-BEF7-CB8A1E1DFD39
+log:pId:100:"datas received:1"
+log:pId:100:"data:{"message":"you are joinning!"}"
+log:pId:100:"exitting.."
+log:disconnected, connectionId:A42695BB-957B-4CE0-BEF7-CB8A1E1DFD39 reason:reason2
+log:RedisConnectionController: succeded to connect redis @:127.0.0.1:6379
+log:connected, connectionId:63BFA5A9-0055-4EA2-A743-9235FC728DB2
+log:playerId:100 is connected as connectionId:63BFA5A9-0055-4EA2-A743-9235FC728DB2
+log:pId:100:"datas received:1"
+log:pId:100:"data:{"message":"you are joinning!"}"
+log:pId:100:"exitting.."
+log:disconnected, connectionId:63BFA5A9-0055-4EA2-A743-9235FC728DB2 reason:reason2
+log:ERROR: RedisConnectionController: failed to connect to redis @:127.0.0.1:6379
+log:ERROR: reason:System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.IPAddress[] addresses, Int32 port) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Connect (System.String host, Int32 port) [0x00000] in <filename unknown>:0 
+  at RedisConnectionController.GenSocket (System.String host, Int32 port, Int32 timeout) [0x00017] in /Users/illusionismine/Desktop/unity-editor-server-context/Assets/ServerContext/Editor/RedisConnectionController.cs:167 

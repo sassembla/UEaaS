@@ -1,0 +1,6 @@
+
+Library/*
+
+Server/bin/logs/access.log
+
+Server/bin/logs/error.log
