@@ -3,7 +3,7 @@
 
 ##Unity Editor as a Server context
 
-[PROJECT_FOLDER/Assets/ServerContext/Editor/ServerContext.cs]() is context of gaming server which is running in the Unity Editor.
+[PROJECT_FOLDER/Assets/ServerContext/Editor/ServerContext.cs](https://github.com/sassembla/UEaaS/blob/master/Assets/ServerContext/Editor/ServerContext.cs#L7) is context of gaming server which is running in the Unity Editor.
 
 
 ##dependencies
@@ -27,11 +27,11 @@ you can see round-tripped JSON data in console and PROJECT_FOLDER/server.log.
 
 ##settings
 redis host & port is hardcoded in below.
-[PROJECT_FOLDER/Assets/ServerContext/Editor/RedisConnectionController.cs]()
+[PROJECT_FOLDER/Assets/ServerContext/Editor/RedisConnectionController.cs](https://github.com/sassembla/UEaaS/blob/master/Assets/ServerContext/Editor/RedisConnectionController.cs#L19)
 
 and
 
-[PROJECT_FOLDER/Server/bin/lua/client.lua]()
+[PROJECT_FOLDER/Server/bin/lua/client.lua](https://github.com/sassembla/UEaaS/blob/master/Server/bin/lua/client.lua#L11)
 
 ##!Mac/Win only!(since Unity's limitation)
 yes. and run on Windows is not easy. good luck.
